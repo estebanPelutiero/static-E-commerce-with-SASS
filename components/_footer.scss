@@ -1,0 +1,37 @@
+.distribucion-footer {
+    background-color: #3a3d41;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 20px 30px;
+}
+
+.distribucion-footer .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+.distribucion-footer div.footer-links {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.distribucion-footer div.footer-links a {
+    font-family: 'Bebas Neue', cursive;
+    font-size: small;
+    letter-spacing: 1px;
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    margin: 3px;
+}
+
+.distribucion-footer div.footer-links a:hover {
+    text-decoration: underline;
+}

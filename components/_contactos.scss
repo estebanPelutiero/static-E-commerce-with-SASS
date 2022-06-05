@@ -1,0 +1,21 @@
+.h2Contacto {
+    padding: 60px 0 40px 0;
+}
+
+.iconSize {
+    width: 50px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.alinearDatosContacto {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+
+    p {
+        font-family: 'Mukta', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}

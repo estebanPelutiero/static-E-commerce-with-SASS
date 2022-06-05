@@ -1,0 +1,22 @@
+nav ul {
+    display: inline;
+    margin-left: 30px;
+
+    li {
+        margin: 15px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: small;
+        display: inline;
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+            color: whitesmoke;
+            letter-spacing: 1px;
+
+            &:hover {
+                color: grey
+            }
+        }
+    }
+}
