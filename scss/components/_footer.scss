@@ -1,6 +1,6 @@
 .distribucion-footer {
     background-color: #3a3d41;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 1px 0 $cards-shadow;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
@@ -14,7 +14,7 @@
 
     div.footer-links {
         font-size: 18px;
-        color: #ffffff;
+        color: $bg-blanco;
         margin: 0 0 10px;
         padding: 0; 
 

@@ -18,17 +18,10 @@
   justify-content: center;
   margin: 5px;
 }
-
 .alinearDatosContacto p {
   font-family: "Mukta", sans-serif;
   font-size: 25px;
   font-weight: bold;
-}
-
-/* ---------------------------------------------------reseteo */
-* {
-  margin: 0;
-  padding: 0;
 }
 
 /* --------------------------------------------------- Index */
@@ -197,126 +190,6 @@ p {
 
 .cardScale:hover {
   transform: scale(1.03);
-}
-
-/*------------------------------------------ pagina "productos con bootstrap" */
-.h2Produ {
-  padding: 90px 0 60px 0;
-}
-
-.img-modificada {
-  max-width: 100%;
-  height: auto;
-  margin-top: 20px;
-}
-
-.container-modificado {
-  margin: 0;
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 40px;
-}
-
-.anchors-modificados {
-  text-decoration: none;
-  color: #8f9296;
-}
-
-.card-shadow {
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
-  margin: 15px;
-}
-
-.titulo-carta {
-  margin: 8px 0;
-}
-
-.card-width {
-  margin-top: 25px;
-  width: 55%;
-  height: 50%;
-}
-
-.divBotonCarrito {
-  display: flex;
-  justify-content: center;
-}
-
-.estiloBtn {
-  background-color: rgb(0, 0, 0);
-  border: none;
-  border-radius: 4px;
-}
-
-.estiloBtn:hover {
-  background-color: #36383a;
-}
-
-.estiloBtn:visited {
-  color: #000;
-}
-
-.botonContacto {
-  width: 100%;
-}
-
-.cardSizer {
-  width: 21rem;
-}
-
-.cardHorizontal {
-  max-width: 540px;
-}
-
-.centrarCardTitle {
-  display: flex;
-  justify-content: center;
-}
-
-.paginacion nav ul li a {
-  color: #000;
-}
-
-.paginacion:hover nav ul li a {
-  color: #747171;
-  cursor: pointer;
-}
-
-.paginacion nav ul li {
-  margin: 1px;
-}
-
-.paginacion nav ul {
-  display: flex;
-  justify-content: center;
-  margin-left: 0;
-}
-
-.inputsMargin {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  margin: 15px;
-}
-
-.btn-size {
-  margin-left: 15px;
-}
-
-.divFlex {
-  display: flex;
-  justify-content: center;
-  margin-right: 20px;
-}
-
-.precios {
-  font-size: 18px;
-}
-
-.divFlexCarritoPrecio {
-  margin-bottom: -8px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: baseline;
 }
 
 /* ------------------------------------carrusel de marcas con javaScript */
@@ -613,21 +486,17 @@ nav ul li a:hover {
   text-align: left;
   padding: 20px 30px;
 }
-
 .distribucion-footer .footer-left p {
   color: #8f9296;
   font-size: 14px;
   margin: 0;
 }
-
 .distribucion-footer div.footer-links {
   font-size: 18px;
-  font-weight: bold;
   color: #ffffff;
   margin: 0 0 10px;
   padding: 0;
 }
-
 .distribucion-footer div.footer-links a {
   font-family: "Bebas Neue", cursive;
   font-size: small;
@@ -638,7 +507,6 @@ nav ul li a:hover {
   color: inherit;
   margin: 3px;
 }
-
 .distribucion-footer div.footer-links a:hover {
   text-decoration: underline;
 }
@@ -690,11 +558,9 @@ nav ul li a:hover {
   border: none;
   border-radius: 4px;
 }
-
 .estiloBtn:hover {
   background-color: #36383a;
 }
-
 .estiloBtn:visited {
   color: #000;
 }
@@ -716,23 +582,20 @@ nav ul li a:hover {
   justify-content: center;
 }
 
-.paginacion nav ul li a {
-  color: #000;
-}
-
-.paginacion:hover nav ul li a {
-  color: #747171;
-  cursor: pointer;
-}
-
-.paginacion nav ul li {
-  margin: 1px;
-}
-
 .paginacion nav ul {
   display: flex;
   justify-content: center;
   margin-left: 0;
+}
+.paginacion nav ul li {
+  margin: 1px;
+}
+.paginacion nav ul li a {
+  color: #000;
+}
+.paginacion nav ul li a:hover {
+  color: #747171;
+  cursor: pointer;
 }
 
 .inputsMargin {

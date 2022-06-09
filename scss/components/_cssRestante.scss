@@ -7,7 +7,7 @@ header {
     flex-direction: row;
     align-items: center;
     padding: 15px;
-    background-color: black;
+    background-color: $bg-negro;
 }
 
 /*--------------------------------------------- fuentes para los h1, h2 y parrafos */
@@ -17,7 +17,7 @@ header {
     padding: 0 30px;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.5px;
-    color: whitesmoke;
+    color: $color-letters;
     margin-bottom: -2px;
     font-weight: 900;
     font-size: 35px;
@@ -29,7 +29,7 @@ h2 {
     font-weight: 100;
     margin: 25px 0;
     font-family: 'Bebas Neue', cursive;
-    color: black;
+    color: $bg-negro;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,13 +110,13 @@ p {
     margin: 40px auto;
     text-align: center;
     font-family: arial;
-    background-color: white;
+    background-color: $bg-blanco;
     height: 79%;
     border-radius: 8px;
 }
 
 .precioCard {
-    color: black;
+    color: $bg-negro;
     font-size: 22px;
 }
 
@@ -124,8 +124,8 @@ p {
     border: none;
     outline: 0;
     padding: 12px;
-    color: white;
-    background-color: #000;
+    color: $bg-blanco;
+    background-color: $bg-negro;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -146,7 +146,7 @@ p {
 }
 
 .korg {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 $cards-shadow;
     max-width: 50%;
     height: 100%;
     margin: auto;
@@ -333,7 +333,7 @@ input[type=button] {
 
 input[type=button] {
     background-color: #04AA6D;
-    color: white;
+    color: $bg-blanco;
     border: none;
 }
 
@@ -405,7 +405,7 @@ input[type=button]:hover {
         padding: 0 30px;
         font-family: 'Bebas Neue', cursive;
         letter-spacing: 0.5px;
-        color: whitesmoke;
+        color: $color-letters;
         margin-bottom: -2px;
         font-weight: 900;
         font-size: 35px;
