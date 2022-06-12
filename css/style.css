@@ -60,10 +60,8 @@ h2 {
   text-align: justify;
 }
 
-h3 {
-  margin: 10px;
-  font-family: "Bebas Neue", cursive;
-  font-size: small;
+h4 {
+  font-size: larger;
 }
 
 p {
@@ -141,7 +139,7 @@ p {
   outline: 0;
   padding: 12px;
   color: white;
-  background-color: #000;
+  background-color: black;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -480,7 +478,7 @@ nav ul li a:hover {
 
 .distribucion-footer {
   background-color: #3a3d41;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
   width: 100%;
   text-align: left;
@@ -493,7 +491,7 @@ nav ul li a:hover {
 }
 .distribucion-footer div.footer-links {
   font-size: 18px;
-  color: #ffffff;
+  color: white;
   margin: 0 0 10px;
   padding: 0;
 }
@@ -540,6 +538,7 @@ nav ul li a:hover {
 
 .titulo-carta {
   margin: 8px 0;
+  font-size: medium;
 }
 
 .card-width {
@@ -554,7 +553,7 @@ nav ul li a:hover {
 }
 
 .estiloBtn {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   border: none;
   border-radius: 4px;
 }
@@ -562,7 +561,7 @@ nav ul li a:hover {
   background-color: #36383a;
 }
 .estiloBtn:visited {
-  color: #000;
+  color: black;
 }
 
 .botonContacto {
@@ -582,18 +581,19 @@ nav ul li a:hover {
   justify-content: center;
 }
 
-.paginacion nav ul {
+.paginacion section ul {
   display: flex;
   justify-content: center;
   margin-left: 0;
 }
-.paginacion nav ul li {
+.paginacion section ul li {
   margin: 1px;
 }
-.paginacion nav ul li a {
-  color: #000;
+.paginacion section ul li a {
+  font-family: "Bebas Neue", cursive;
+  color: black;
 }
-.paginacion nav ul li a:hover {
+.paginacion section ul li a:hover {
   color: #747171;
   cursor: pointer;
 }

@@ -27,6 +27,7 @@
 
 .titulo-carta {
     margin: 8px 0;
+    font-size: medium;
 }
 
 .card-width {
@@ -71,7 +72,7 @@
     justify-content: center;
 }
 
-.paginacion nav ul {
+.paginacion section ul {
     display: flex;
     justify-content: center;
     margin-left: 0;
@@ -80,6 +81,7 @@
         margin: 1px;
 
         a {
+            font-family: 'Bebas Neue', cursive;
             color: $bg-negro;
 
             &:hover {
