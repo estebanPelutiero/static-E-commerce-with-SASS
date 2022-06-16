@@ -4,14 +4,13 @@ nav ul {
 
     li {
         margin: 15px;
-        font-family: 'Bebas Neue', cursive;
+        font-family: map-get($ColorsAndFonts, boldFont);
         font-size: small;
         display: inline;
         list-style-type: none;
 
         a {
-            text-decoration: none;
-            color: $color-letters;
+            @include anchorStyle;
             letter-spacing: 1px;
 
             &:hover {

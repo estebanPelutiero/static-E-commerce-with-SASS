@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+.contenedorForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .h2Contacto {
   padding: 60px 0 40px 0;
 }
@@ -38,7 +45,7 @@ header {
 .h1Style {
   display: inline;
   padding: 0 30px;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas Neue";
   letter-spacing: 0.5px;
   color: whitesmoke;
   margin-bottom: -2px;
@@ -51,7 +58,7 @@ h2 {
   text-align: center;
   font-weight: 100;
   margin: 25px 0;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas Neue";
   color: black;
   display: flex;
   justify-content: center;
@@ -65,7 +72,7 @@ h4 {
 }
 
 p {
-  font-family: "Mukta", sans-serif;
+  font-family: "Mukta";
 }
 
 /* -----------------------------------------grilla index divPrincipal */
@@ -323,10 +330,6 @@ form {
   padding-top: 0;
   padding-bottom: 10px;
   background-color: #f1f1f1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Los corchetes se usan para seleccionar todos los elementos que tienen un determinado valor de atributo */
@@ -395,13 +398,14 @@ input[type=button]:hover {
   header {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 10px;
   }
   .h1Style {
     display: inline;
     padding: 0 30px;
-    font-family: "Bebas Neue", cursive;
+    font-family: "Bebas Neue";
     letter-spacing: 0.5px;
     color: whitesmoke;
     margin-bottom: -2px;
@@ -462,7 +466,7 @@ nav ul {
 }
 nav ul li {
   margin: 15px;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas Neue";
   font-size: small;
   display: inline;
   list-style-type: none;
@@ -496,14 +500,14 @@ nav ul li a:hover {
   padding: 0;
 }
 .distribucion-footer div.footer-links a {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas Neue";
   font-size: small;
   letter-spacing: 1px;
   display: inline-block;
   line-height: 1.8;
-  text-decoration: none;
-  color: inherit;
   margin: 3px;
+  text-decoration: none;
+  color: whitesmoke;
 }
 .distribucion-footer div.footer-links a:hover {
   text-decoration: underline;
@@ -590,7 +594,7 @@ nav ul li a:hover {
   margin: 1px;
 }
 .paginacion section ul li a {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas Neue";
   color: black;
 }
 .paginacion section ul li a:hover {

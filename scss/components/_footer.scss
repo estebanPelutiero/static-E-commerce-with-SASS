@@ -14,19 +14,18 @@
 
     div.footer-links {
         font-size: 18px;
-        color: $bg-blanco;
+        color: map-get($ColorsAndFonts, bg-blanco);
         margin: 0 0 10px;
         padding: 0; 
 
         a {
-            font-family: 'Bebas Neue', cursive;
+            font-family: map-get($ColorsAndFonts, boldFont);
             font-size: small;
             letter-spacing: 1px;
             display: inline-block;
-            line-height: 1.8;
-            text-decoration: none;
-            color: inherit;
+            line-height: 1.8;      
             margin: 3px;
+            @include anchorStyle;
 
             &:hover {
                 text-decoration: underline;

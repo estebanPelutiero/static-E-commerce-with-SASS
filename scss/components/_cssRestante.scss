@@ -7,7 +7,7 @@ header {
     flex-direction: row;
     align-items: center;
     padding: 15px;
-    background-color: $bg-negro;
+    background-color: map-get($ColorsAndFonts, bg-negro);
 }
 
 /*--------------------------------------------- fuentes para los h1, h2 y parrafos */
@@ -15,9 +15,9 @@ header {
 .h1Style {
     display: inline;
     padding: 0 30px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: map-get($ColorsAndFonts, boldFont);
     letter-spacing: 0.5px;
-    color: $color-letters;
+    color: map-get($ColorsAndFonts, color-letters);
     margin-bottom: -2px;
     font-weight: 900;
     font-size: 35px;
@@ -28,8 +28,8 @@ h2 {
     text-align: center;
     font-weight: 100;
     margin: 25px 0;
-    font-family: 'Bebas Neue', cursive;
-    color: $bg-negro;
+    font-family: map-get($ColorsAndFonts, boldFont);
+    color: map-get($ColorsAndFonts, bg-negro);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ h4 {
 }
 
 p {
-    font-family: 'Mukta', sans-serif;
+    font-family: map-get($ColorsAndFonts, slimFont);
 }
 
 /* -----------------------------------------grilla index divPrincipal */
@@ -108,13 +108,13 @@ p {
     margin: 40px auto;
     text-align: center;
     font-family: arial;
-    background-color: $bg-blanco;
+    background-color: map-get($ColorsAndFonts, bg-blanco);
     height: 79%;
     border-radius: 8px;
 }
 
 .precioCard {
-    color: $bg-negro;
+    color: map-get($ColorsAndFonts, bg-negro);
     font-size: 22px;
 }
 
@@ -122,8 +122,8 @@ p {
     border: none;
     outline: 0;
     padding: 12px;
-    color: $bg-blanco;
-    background-color: $bg-negro;
+    color: map-get($ColorsAndFonts, bg-blanco);
+    background-color: map-get($ColorsAndFonts, bg-negro);
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -309,10 +309,7 @@ form {
     padding-top: 0;
     padding-bottom: 10px;
     background-color: #f1f1f1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @extend %displayFlexCol;
 }
 
 /* Los corchetes se usan para seleccionar todos los elementos que tienen un determinado valor de atributo */
@@ -394,6 +391,7 @@ input[type=button]:hover {
     header {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         padding: 10px;
     }
@@ -401,9 +399,9 @@ input[type=button]:hover {
     .h1Style {
         display: inline;
         padding: 0 30px;
-        font-family: 'Bebas Neue', cursive;
+        font-family: map-get($ColorsAndFonts, boldFont);
         letter-spacing: 0.5px;
-        color: $color-letters;
+        color: map-get($ColorsAndFonts, color-letters);
         margin-bottom: -2px;
         font-weight: 900;
         font-size: 35px;

@@ -42,7 +42,7 @@
 }
 
 .estiloBtn {
-    background-color: $bg-negro;
+    background-color: map-get($ColorsAndFonts, bg-negro);
     border: none;
     border-radius: 4px;
 
@@ -51,7 +51,7 @@
     }
 
     &:visited {
-        color: $bg-negro;
+        color: map-get($ColorsAndFonts, bg-negro);
     }
 }
 
@@ -81,8 +81,8 @@
         margin: 1px;
 
         a {
-            font-family: 'Bebas Neue', cursive;
-            color: $bg-negro;
+            font-family: map-get($ColorsAndFonts, boldFont);
+            color: map-get($ColorsAndFonts , bg-negro);
 
             &:hover {
                 color: #747171;
