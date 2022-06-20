@@ -18,6 +18,10 @@
 .anchors-modificados {
     text-decoration:none;
     color: #8f9296;
+
+    &:hover {
+        color: map-get($ColorsAndFonts, bg-negro);
+    }
 }
 
 .card-shadow {
@@ -44,7 +48,8 @@
 .estiloBtn {
     background-color: map-get($ColorsAndFonts, bg-negro);
     border: none;
-    border-radius: 4px;
+    border-radius: 3px;
+    font-size: 0.8rem;
 
     &:hover {
         background-color: #36383a;
@@ -109,12 +114,4 @@
 
 .precios {
     font-size: 18px;
-}
-
-.divFlexCarritoPrecio {
-    margin-bottom: -8px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: baseline;
 }

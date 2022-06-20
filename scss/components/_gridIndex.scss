@@ -1,0 +1,55 @@
+#mainProductos {
+    background-color: #ccc;
+}
+
+#divPrincipal {
+    display: grid;
+    grid-template-areas:
+        "article1 article2 article3"
+        "article4 article5 article6"
+        "bigCard bigCard bigCard"
+        "form form form"
+        "footer footer footer";
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#mainIndex {
+    grid-area: main;
+}
+
+#arti1 {
+    grid-area: article1;
+}
+
+#arti2 {
+    grid-area: article2;
+}
+
+#arti3 {
+    grid-area: article3;
+}
+
+#arti4 {
+    grid-area: article4;
+}
+
+#arti5 {
+    grid-area: article5;
+}
+
+#arti6 {
+    grid-area: article6;
+}
+
+#cartaGrande {
+    grid-area: bigCard;
+}
+
+#formulario {
+    grid-area: form;
+}
+
+#footerIndex {
+    grid-area: footer;
+}

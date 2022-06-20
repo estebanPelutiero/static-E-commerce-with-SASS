@@ -10,38 +10,6 @@
   align-items: center;
 }
 
-.h2Contacto {
-  padding: 60px 0 40px 0;
-}
-
-.iconSize {
-  width: 50px;
-  height: 40px;
-  padding-right: 10px;
-}
-
-.alinearDatosContacto {
-  display: flex;
-  justify-content: center;
-  margin: 5px;
-}
-.alinearDatosContacto p {
-  font-family: "Mukta", sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-/* --------------------------------------------------- Index */
-/* header con flexbox */
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 15px;
-  background-color: black;
-}
-
-/*--------------------------------------------- fuentes para los h1, h2 y parrafos */
 .h1Style {
   display: inline;
   padding: 0 30px;
@@ -75,7 +43,192 @@ p {
   font-family: "Mukta";
 }
 
-/* -----------------------------------------grilla index divPrincipal */
+.h2Contacto {
+  padding: 60px 0 40px 0;
+}
+
+.iconSize {
+  width: 50px;
+  height: 40px;
+  padding-right: 10px;
+}
+
+.alinearDatosContacto {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.alinearDatosContacto p {
+  font-family: "Mukta", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: inline;
+  margin-left: 30px;
+}
+nav ul li {
+  margin: 15px;
+  font-family: "Bebas Neue";
+  font-size: small;
+  display: inline;
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  letter-spacing: 1px;
+}
+nav ul li a:hover {
+  color: grey;
+}
+
+.distribucion-footer {
+  background-color: #3a3d41;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 20px 30px;
+}
+.distribucion-footer .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+.distribucion-footer div.footer-links {
+  font-size: 18px;
+  color: white;
+  margin: 0 0 10px;
+  padding: 0;
+}
+.distribucion-footer div.footer-links a {
+  font-family: "Bebas Neue";
+  font-size: small;
+  letter-spacing: 1px;
+  display: inline-block;
+  line-height: 1.8;
+  margin: 3px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.distribucion-footer div.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.h2Produ {
+  padding: 90px 0 60px 0;
+}
+
+.img-modificada {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.container-modificado {
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.anchors-modificados {
+  text-decoration: none;
+  color: #8f9296;
+}
+.anchors-modificados:hover {
+  color: black;
+}
+
+.card-shadow {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+  margin: 15px;
+}
+
+.titulo-carta {
+  margin: 8px 0;
+  font-size: medium;
+}
+
+.card-width {
+  margin-top: 25px;
+  width: 55%;
+  height: 50%;
+}
+
+.divBotonCarrito {
+  display: flex;
+  justify-content: center;
+}
+
+.estiloBtn {
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+.estiloBtn:hover {
+  background-color: #36383a;
+}
+.estiloBtn:visited {
+  color: black;
+}
+
+.botonContacto {
+  width: 100%;
+}
+
+.cardSizer {
+  width: 21rem;
+}
+
+.cardHorizontal {
+  max-width: 540px;
+}
+
+.centrarCardTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.paginacion section ul {
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+}
+.paginacion section ul li {
+  margin: 1px;
+}
+.paginacion section ul li a {
+  font-family: "Bebas Neue";
+  color: black;
+}
+.paginacion section ul li a:hover {
+  color: #747171;
+  cursor: pointer;
+}
+
+.inputsMargin {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 15px;
+}
+
+.btn-size {
+  margin-left: 15px;
+}
+
+.divFlex {
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.precios {
+  font-size: 18px;
+}
+
 #mainProductos {
   background-color: #ccc;
 }
@@ -85,6 +238,10 @@ p {
   grid-template-areas: "article1 article2 article3" "article4 article5 article6" "bigCard bigCard bigCard" "form form form" "footer footer footer";
   grid-template-rows: repeat(5, 1fr);
   grid-template-columns: repeat(3, 1fr);
+}
+
+#mainIndex {
+  grid-area: main;
 }
 
 #arti1 {
@@ -123,7 +280,14 @@ p {
   grid-area: footer;
 }
 
-/*------------------------------------------- animacion carta grande */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  background-color: black;
+}
+
 .carta {
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -154,7 +318,6 @@ p {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-
 .carta button:hover {
   opacity: 0.7;
 }
@@ -181,10 +344,6 @@ p {
   animation-timing-function: ease-in;
 }
 
-.korg button:hover {
-  opacity: 0.7;
-}
-
 .widthImgKorg {
   width: 70%;
 }
@@ -197,7 +356,6 @@ p {
   transform: scale(1.03);
 }
 
-/* ------------------------------------carrusel de marcas con javaScript */
 .slick-slide {
   margin: 0px 20px;
 }
@@ -320,7 +478,6 @@ p {
   margin: 20px 0 50px 0;
 }
 
-/* --------------------------------------------- formulario newsletter */
 form {
   border: 4px solid #f1f1f1;
   margin-top: 10px;
@@ -350,12 +507,10 @@ input[type=button] {
   color: white;
   border: none;
 }
-
 input[type=button]:hover {
   opacity: 0.8;
 }
 
-/*------------------------ media querie pagina contacto - para TABLET 768px */
 @media screen and (max-width: 768px) {
   #formulario {
     display: flex;
@@ -459,174 +614,6 @@ input[type=button]:hover {
   .cardScale:hover {
     transform: scale(1.03);
   }
-}
-nav ul {
-  display: inline;
-  margin-left: 30px;
-}
-nav ul li {
-  margin: 15px;
-  font-family: "Bebas Neue";
-  font-size: small;
-  display: inline;
-  list-style-type: none;
-}
-nav ul li a {
-  text-decoration: none;
-  color: whitesmoke;
-  letter-spacing: 1px;
-}
-nav ul li a:hover {
-  color: grey;
-}
-
-.distribucion-footer {
-  background-color: #3a3d41;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
-  box-sizing: border-box;
-  width: 100%;
-  text-align: left;
-  padding: 20px 30px;
-}
-.distribucion-footer .footer-left p {
-  color: #8f9296;
-  font-size: 14px;
-  margin: 0;
-}
-.distribucion-footer div.footer-links {
-  font-size: 18px;
-  color: white;
-  margin: 0 0 10px;
-  padding: 0;
-}
-.distribucion-footer div.footer-links a {
-  font-family: "Bebas Neue";
-  font-size: small;
-  letter-spacing: 1px;
-  display: inline-block;
-  line-height: 1.8;
-  margin: 3px;
-  text-decoration: none;
-  color: whitesmoke;
-}
-.distribucion-footer div.footer-links a:hover {
-  text-decoration: underline;
-}
-
-.h2Produ {
-  padding: 90px 0 60px 0;
-}
-
-.img-modificada {
-  max-width: 100%;
-  height: auto;
-  margin-top: 20px;
-}
-
-.container-modificado {
-  margin: 0;
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 40px;
-}
-
-.anchors-modificados {
-  text-decoration: none;
-  color: #8f9296;
-}
-
-.card-shadow {
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
-  margin: 15px;
-}
-
-.titulo-carta {
-  margin: 8px 0;
-  font-size: medium;
-}
-
-.card-width {
-  margin-top: 25px;
-  width: 55%;
-  height: 50%;
-}
-
-.divBotonCarrito {
-  display: flex;
-  justify-content: center;
-}
-
-.estiloBtn {
-  background-color: black;
-  border: none;
-  border-radius: 4px;
-}
-.estiloBtn:hover {
-  background-color: #36383a;
-}
-.estiloBtn:visited {
-  color: black;
-}
-
-.botonContacto {
-  width: 100%;
-}
-
-.cardSizer {
-  width: 21rem;
-}
-
-.cardHorizontal {
-  max-width: 540px;
-}
-
-.centrarCardTitle {
-  display: flex;
-  justify-content: center;
-}
-
-.paginacion section ul {
-  display: flex;
-  justify-content: center;
-  margin-left: 0;
-}
-.paginacion section ul li {
-  margin: 1px;
-}
-.paginacion section ul li a {
-  font-family: "Bebas Neue";
-  color: black;
-}
-.paginacion section ul li a:hover {
-  color: #747171;
-  cursor: pointer;
-}
-
-.inputsMargin {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  margin: 15px;
-}
-
-.btn-size {
-  margin-left: 15px;
-}
-
-.divFlex {
-  display: flex;
-  justify-content: center;
-  margin-right: 20px;
-}
-
-.precios {
-  font-size: 18px;
-}
-
-.divFlexCarritoPrecio {
-  margin-bottom: -8px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: baseline;
 }
 
 /*# sourceMappingURL=style.css.map */

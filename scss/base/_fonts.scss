@@ -1,0 +1,32 @@
+.h1Style {
+    display: inline;
+    padding: 0 30px;
+    font-family: map-get($ColorsAndFonts, boldFont);
+    letter-spacing: 0.5px;
+    color: map-get($ColorsAndFonts, color-letters);
+    margin-bottom: -2px;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 0;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 100;
+    margin: 25px 0;
+    font-family: map-get($ColorsAndFonts, boldFont);
+    color: map-get($ColorsAndFonts, bg-negro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: justify;
+}
+
+h4 {
+    font-size: larger;
+}
+
+p {
+    font-family: map-get($ColorsAndFonts, slimFont);
+}

@@ -1,0 +1,36 @@
+form {
+    border: 4px solid #f1f1f1;
+    margin-top: 10px;
+}
+
+.contenedorForm {
+    padding-top: 0;
+    padding-bottom: 10px;
+    background-color: #f1f1f1;
+    @extend %displayFlexCol;
+}
+
+/* Los corchetes se usan para seleccionar todos los elementos que tienen un determinado valor de atributo */
+/* Aqui seleccionamos todos los "inputs" que poseen los atributos type="text" y type="submit" */
+
+input[type=text],
+input[type=button] {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    background-color: #04AA6D;
+    color: $bg-blanco;
+    border: none;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
