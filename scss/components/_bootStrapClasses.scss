@@ -17,10 +17,10 @@
 
 .anchors-modificados {
     text-decoration:none;
-    color: #8f9296;
+    color: map-get($ColorsAndFonts, bg-negro);
 
     &:hover {
-        color: map-get($ColorsAndFonts, bg-negro);
+        color: gray;
     }
 }
 
